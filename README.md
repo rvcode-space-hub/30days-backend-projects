@@ -1,41 +1,49 @@
-# 🚀 30 Days Backend Developer Journey (Node.js + PHP + Java)
+# 🚀 30 Days Backend Development Journey (Node.js + Java)
 
-Welcome to my **30 Days Backend Development Journey**!  
-In this repo, I will be building **30 projects in 30 days** to master backend development concepts step by step. in **3 different backend technologies**:  
-- Node.js (JavaScript/TypeScript)  
-- PHP  
-- Java (Spring Boot)  
+This repository contains **30 backend projects in 30 days**, built using:
 
+- Node.js (Express.js / TypeScript)
+- Java (Spring Boot)
 
-## 📅 Projects Roadmap
+Every project will also have **its own `README.md`** inside the project folder with details about that specific project.
 
 
+---
 
-## 📂 Folder Structure
-- **nodejs/** → All Node.js backend projects  
-- **php/** → All PHP backend projects  
-- **java/** → All Java backend projects 
+## 📅 Daily Projects
+The complete roadmap for all 30 days is available in the Projects Roadmap section above.  
+Each day's project will be updated here as progress is made.
 
+---
 
 ## 🛠️ Tech Stack
-- Node.js + Express.js  
-- PHP + Laravel / Core PHP  
-- Java + Spring Boot  
+### Node.js
+- Express.js
+- TypeScript (optional)
+- MongoDB / MySQL
 
+### Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
 
+---
 
-## 🚀 How to Run
-Check inside each language folder for setup instructions.  
-Example:  
+## 🎯 Goal
 
+- Build strong backend development skills with production-level understanding.
 
+----
+
+## 🚀 How to Run a Project
+
+### Node.js
 ```bash
-cd nodejs/day01-hello-world-api
+cd nodejs/project-name
 npm install
 npm start
-
-cd php/day01-hello-world-api
-php -S localhost:8000
-
-cd java/day01-hello-world-api
+```
+###  Java
+```bash
+cd java/project-name
 mvn spring-boot:run
